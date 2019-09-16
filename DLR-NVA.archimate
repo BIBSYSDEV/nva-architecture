@@ -8,7 +8,9 @@
     <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-licenses" id="9acddf06-7dca-460d-a05c-529fc555adcd"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-institution-user-authorizations" id="d4bf8b54-3d97-48bc-ae1f-9bb945dfca35"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-auth" id="0ab6bafb-f632-47b0-9ff5-386781383cca"/>
-    <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-login" id="cc6f71c3-96c7-4dcc-ac6c-dbfb24d4f38e"/>
+    <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-login" id="cc6f71c3-96c7-4dcc-ac6c-dbfb24d4f38e">
+      <documentation>Is a lambda</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-users" id="583b3a61-d64d-4513-baa2-ae0f5a0cf1ed"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-user-authorizations" id="29225e53-58ad-4e62-931b-1c617df69dcb"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-resources-search" id="8cc2e287-cc13-47a0-b412-d52f67bb429f"/>
@@ -17,8 +19,12 @@
     <element xsi:type="archimate:ApplicationService" name="dlr-gui-backend-resources-content" id="7c190bac-aa4a-4430-b52a-78c56ff2ad0c"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-license-service" id="bb40d7d7-a512-4768-b36d-41160b25261e"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-user-authorization-service" id="99d9222a-3a2c-498c-84f4-27727480c9a5"/>
-    <element xsi:type="archimate:ApplicationService" name="dlr-auth-token-service" id="98c123bc-e473-4270-9bf1-0024f39dc832"/>
-    <element xsi:type="archimate:ApplicationService" name="dlr-user-service" id="d76dc935-d5e3-49da-88a9-ab8c194b8fc0"/>
+    <element xsi:type="archimate:ApplicationService" name="dlr-auth-token-service" id="98c123bc-e473-4270-9bf1-0024f39dc832">
+      <documentation>Is a Lambda</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" name="dlr-user-service" id="d76dc935-d5e3-49da-88a9-ab8c194b8fc0">
+      <documentation>Is a lambda</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationService" name="dlr-resource-search-service" id="58e18e37-d988-48bd-9e7e-1906d6bb6747"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-resource-service" id="1e104970-4e3b-49a4-93b2-a8c16501e31f"/>
     <element xsi:type="archimate:ApplicationService" name="dlr-resource-content-storage-service" id="ff41be07-bad7-446d-be03-a81a44e31e68"/>
